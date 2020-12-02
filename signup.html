@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<style>
+	body{
+			/*background-color: #d47a39;*/
+			background:url("https://free4kwallpapers.com/uploads/originals/2016/05/11/street-texture-wallpaper.jpg")center center/cover no-repeat;
+			background-attachment: fixed;
+			max-width: 80%;
+			margin:0px auto;
+			color:white;
+			font-size: 20px;
+		}
+		div{
+			width:500px;
+			margin:0px auto;
+			padding:30px;
+			margin-top: 75px;
+			border:2px solid #b48484;
+		}
+		button{
+			/*margin-left:50px;*/
+			font-size: 15px;
+			background-color: #31bcc6;
+			border:0px;
+			padding:8px;
+			border-radius: 5px;
+			width:100px;
+		}
+		button:hover{
+			background-color: #b48484;
+			transition: background 1000ms;
+		}
+		a{
+			color: white;
+			float:right;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<form action="index.html" method="GET">
+		<label>Username</label><br>
+		<input type="text" placeholder="Username" required="true"><br><br>
+		<label>Email ID</label><br>
+		<input type="Email" placeholder="Email" required="true"><br><br>
+		<label>Mobile No</label><br>
+		<input type="text" placeholder="Mobile No" maxlength="10" required="true"><br><br>
+		<label>Gender</label><br>
+		<input type="radio" value="male" name="gender">Male</input>
+		<input type="radio" value="female" name="gender">Female</input>
+		<input type="radio" value="others" name="gender">Others</input><br><br>
+		<label>DOB</label><br>
+		<input type="date" required="true"><br><br>
+		<label>Password</label><br>
+		<input type="Password" required="true" placeholder="Password"><br><br>
+		<label>Confirm Password</label><br>
+		<input type="Password" required="true" placeholder="Retype Password"><br><br>
+		<button type="submit">Sign Up</button>
+	</form>
+</div>
+</body>
+</html>
